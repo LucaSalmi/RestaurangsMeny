@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="meny_color">#F0EC74</color>
     <color name="night_blue">#3E4EB2</color>
+    <color name="element_background">#57B6B6B6</color>
+    <color name="gradient_start">#80FDFBFB</color>
 </resources>

@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/metal/AndroidStudioProjects/RestaurangsMeny/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Users/metal/AndroidStudioProjects/RestaurangsMeny/app/src/main/res/drawable/gradient_drawable.xml" value="0.362962962962963" />
+        <entry key="..\:/Users/metal/AndroidStudioProjects/RestaurangsMeny/app/src/main/res/layout/activity_desserts.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/metal/AndroidStudioProjects/RestaurangsMeny/app/src/main/res/layout/activity_main.xml" value="0.44027517198248906" />
+        <entry key="..\:/Users/metal/AndroidStudioProjects/RestaurangsMeny/app/src/main/res/layout/activity_main_courses.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/metal/AndroidStudioProjects/RestaurangsMeny/app/src/main/res/layout/activity_starters.xml" value="0.5" />
       </map>
     </option>
   </component>

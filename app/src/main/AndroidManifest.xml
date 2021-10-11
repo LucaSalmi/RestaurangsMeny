@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RestaurangsMeny">
         <activity
+            android:name=".Desserts"
+            android:exported="true" />
+        <activity
+            android:name=".MainCourses"
+            android:exported="true" />
+        <activity
+            android:name=".Starters"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

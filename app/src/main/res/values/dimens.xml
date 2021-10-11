@@ -5,4 +5,8 @@
     <dimen name="font_size">20sp</dimen>
     <dimen name="margin">15dp</dimen>
     <dimen name="description_size">13sp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="div_size">40dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
 </resources>
