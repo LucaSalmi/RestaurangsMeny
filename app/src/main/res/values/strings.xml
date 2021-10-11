@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RestaurangsMeny</string>
+    <string name="titel">Restaurang "Amici Miei"</string>
+    //starters
+    <string name="starters">Förrätter</string>
+    <string name="first_starter">- Bruschetta -</string>
+    <string name="first_starter_description">Italiensk rostad bröd med mozzarella ost och skinka</string>
+    <string name="second_starter">- Caprese sallad -</string>
+    <string name="second_starter_description">fräsch sallad med tomater, mozzarella och basilika</string>
+    <string name="third_starter">- Chark &amp; Ost tallrik -</string>
+    <string name="third_starter_description">Vår selektion av chark och ost</string>
+    //main courses
+    <string name="main_course">Huvudrätter</string>
+    <string name="first_main">- Spaghetti alla Carbonara -</string>
+    <string name="first_main_description">Pasta med ägg, guanciale, svart peppar och pecorino ost</string>
+    <string name="second_main">- Tortellini alla Panna -</string>
+    <string name="second_main_description">Pasta fylld med kött som serveras med grädde</string>
+    <string name="third_main">- Fiorentina alla Griglia -</string>
+    <string name="third_main_description">Grillad Fiorentina köttbit</string>
+    //desserts
+    <string name="dessert">Efterrätter</string>
+    <string name="first_dessert">- Tiramisú -</string>
+    <string name="first_dessert_description">Efterrätt med mascarpone ost, savoiardi kex och kaffe</string>
+    <string name="second_dessert">- Gelato Vari Gusti -</string>
+    <string name="second_dessert_description">Klassiska glass smaker, olika varje vecka</string>
+    <string name="third_dessert">- Zuppa Inglese -</string>
+    <string name="third_dessert_description">"Puddingkaka" med vaniljkräm, chockladkräm, kex och Alkermes </string>
+</resources>

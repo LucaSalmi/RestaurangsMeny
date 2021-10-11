@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_menu_better"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/titel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="@dimen/margin"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/titel"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+        <ImageView
+            android:id="@+id/divider_1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/titel"
+            android:src="@drawable/divider_white"></ImageView>
+
+
+        <TextView
+            android:id="@+id/starters_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_1"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/margin"
+            android:fontFamily="cursive"
+            android:text="@string/starters"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/rubrik_size"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/starter_img_1"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/divider_1"
+            android:src="@drawable/starter_3_new"
+            android:layout_alignParentRight="true">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/starter_img_2"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_below="@id/first_starter"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/starter_2_new">
+
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/first_starter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/starter_img_1"
+
+            android:fontFamily="cursive"
+            android:text="@string/first_starter"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/first_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/description_size"
+            android:layout_below="@id/first_starter"
+            android:text="@string/first_starter_description"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/margin"></TextView>
+
+
+        <TextView
+            android:id="@+id/second_starter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first_description"
+            android:layout_marginTop="@dimen/margin"
+            android:fontFamily="cursive"
+            android:text="@string/second_starter"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/second_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/description_size"
+            android:layout_below="@id/second_starter"
+            android:text="@string/second_starter_description"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/margin"></TextView>
+
+        <TextView
+            android:id="@+id/third_starter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_description"
+            android:layout_marginTop="@dimen/margin"
+            android:fontFamily="cursive"
+            android:layout="@+id/starters_title"
+            android:text="@string/third_starter"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/third_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/description_size"
+            android:layout_below="@id/third_starter"
+            android:text="@string/third_starter_description"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/margin"></TextView>
+
+
+        <ImageView
+            android:id="@+id/divider_2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/third_description"
+            android:layout_marginTop="@dimen/margin"
+            android:src="@drawable/divider_white"></ImageView>
+
+
+        <TextView
+            android:id="@+id/main_course_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="cursive"
+            android:text="@string/main_course"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/rubrik_size"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/main_course_img_1"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/divider_2"
+            android:src="@drawable/main_course_1"
+            android:layout_alignParentRight="true"></ImageView>
+
+        <ImageView
+            android:id="@+id/main_course_img_2"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/first_main"
+            android:src="@drawable/main_2"
+            android:layout_alignParentLeft="true"></ImageView>
+
+        <TextView
+            android:id="@+id/first_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_course_title"
+            android:text="@string/first_main"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size"
+            android:fontFamily="cursive"
+            android:layout_marginTop="@dimen/margin">
+        </TextView>
+
+            <TextView
+                android:id="@+id/fourth_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/description_size"
+                android:layout_below="@id/first_main"
+                android:text="@string/first_main_description"
+                android:textColor="@color/white"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:layout_marginBottom="@dimen/margin"></TextView>
+
+
+        <TextView
+            android:id="@+id/second_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fourth_description"
+            android:text="@string/second_main"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size"
+            android:fontFamily="cursive"
+            android:layout_marginTop="@dimen/margin">
+        </TextView>
+
+        <TextView
+            android:id="@+id/fifth_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/description_size"
+            android:layout_below="@id/second_main"
+            android:text="@string/second_main_description"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/margin"></TextView>
+
+
+        <TextView
+            android:id="@+id/third_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fifth_description"
+            android:text="@string/third_main"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size"
+            android:fontFamily="cursive"
+            android:layout_marginTop="@dimen/margin">
+        </TextView>
+
+        <TextView
+            android:id="@+id/sixth_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/description_size"
+            android:layout_below="@id/third_main"
+            android:text="@string/third_main_description"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/margin"></TextView>
+
+
+        <ImageView
+            android:id="@+id/divider_3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/sixth_description"
+            android:layout_marginTop="@dimen/margin"
+            android:src="@drawable/divider_white"></ImageView>
+
+        <TextView
+            android:id="@+id/dessert_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="cursive"
+            android:text="@string/dessert"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/rubrik_size"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/dessert_img"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/divider_3"
+            android:src="@drawable/dessert"
+            android:layout_alignParentRight="true"></ImageView>
+
+        <TextView
+            android:id="@+id/first_dessert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dessert_title"
+            android:text="@string/first_dessert"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size"
+            android:fontFamily="cursive"
+            android:layout_marginTop="@dimen/margin">
+        </TextView>
+
+        <TextView
+            android:id="@+id/seventh_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/description_size"
+            android:layout_below="@id/first_dessert"
+            android:text="@string/first_dessert_description"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/margin"></TextView>
+
+
+        <TextView
+            android:id="@+id/second_dessert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seventh_description"
+            android:text="@string/second_dessert"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size"
+            android:fontFamily="cursive"
+            android:layout_marginTop="@dimen/margin">
+        </TextView>
+
+        <TextView
+            android:id="@+id/eighth_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/description_size"
+            android:layout_below="@id/second_dessert"
+            android:text="@string/second_dessert_description"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/margin"></TextView>
+
+
+        <TextView
+            android:id="@+id/third_dessert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eighth_description"
+            android:text="@string/third_dessert"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size"
+            android:fontFamily="cursive"
+            android:layout_marginTop="@dimen/margin">
+        </TextView>
+
+        <TextView
+            android:id="@+id/ninth_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/description_size"
+            android:layout_below="@id/third_dessert"
+            android:text="@string/third_dessert_description"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/margin"></TextView>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>
