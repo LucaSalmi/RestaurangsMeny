@@ -9,7 +9,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_drawable">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -28,6 +29,19 @@
                 android:textColor="@color/white"
                 android:textSize="@dimen/title_size"
                 android:textStyle="bold"></TextView>
+
+            <ImageButton
+                android:id="@+id/return_button"
+                android:layout_width="@dimen/return_button_dimens"
+                android:layout_height="@dimen/return_button_dimens"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/margin_10"
+                android:layout_marginStart="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginEnd="@dimen/margin_10"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_baseline_chevron_left_24"></ImageButton>
 
             <ImageView
                 android:id="@+id/divider_1"
@@ -50,7 +64,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/dessert_main_img"
-                android:background="@drawable/gradient_drawable"
                 android:orientation="vertical">
 
                 <TextView
