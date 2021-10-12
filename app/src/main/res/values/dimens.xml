@@ -3,7 +3,7 @@
     <dimen name="title_size">40sp</dimen>
     <dimen name="rubrik_size">35sp</dimen>
     <dimen name="font_size">25sp</dimen>
-    <dimen name="margin">15dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
     <dimen name="description_size">20sp</dimen>
     <dimen name="margin_10">10dp</dimen>
     <dimen name="div_size">40dp</dimen>
@@ -11,4 +11,8 @@
     <dimen name="margin_50">50dp</dimen>
     <dimen name="margin_100">100dp</dimen>
     <dimen name="return_button_dimens">40dp</dimen>
+    <dimen name="contact_size_big">18sp</dimen>
+    <dimen name="contact_size_small">15sp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="img_height_scaling">80dp</dimen>
 </resources>

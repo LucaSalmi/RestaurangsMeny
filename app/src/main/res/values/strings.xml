@@ -25,4 +25,17 @@
     <string name="second_dessert_description">Klassiska glass smaker, olika varje vecka</string>
     <string name="third_dessert">- Zuppa Inglese -</string>
     <string name="third_dessert_description">"Puddingkaka" med vaniljkräm, chockladkräm, kex och Alkermes </string>
+
+    <string name="contacts_title">Kontakter</string>
+    <string name="contacts_phone"> 07 65881154</string>
+    <string name="contacts_mail">amicimiei@gmail.com</string>
+    <string name="allergenic_title">Allergener</string>
+
+    <string name="gluten_desc">Gluten</string>
+    <string name="milk_desc">Mjölk och mjölkprodukter</string>
+    <string name="eggs_desc">Ägg</string>
+    <string name="shellfish_desc">Skaldjur</string>
+    <string name="nuts_desc">Nötter</string>
+    <string name="allegenics_description">Varje ikon beskriver vilka allergen våra maträtter innehåller, du hittar de under beskrivningen.</string>
+
 </resources>

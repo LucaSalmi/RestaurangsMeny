@@ -16,13 +16,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_baseline_help_24"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_10"></ImageButton>
+
             <TextView
                 android:id="@+id/category_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="@dimen/margin"
+                android:layout_marginVertical="@dimen/margin_15"
                 android:layout_marginTop="@dimen/margin_10"
-                android:layout_marginBottom="@dimen/margin"
+                android:layout_marginBottom="@dimen/margin_15"
                 android:fontFamily="cursive"
                 android:gravity="center"
                 android:text="@string/starters"
@@ -30,25 +39,13 @@
                 android:textSize="@dimen/title_size"
                 android:textStyle="bold"></TextView>
 
-            <ImageButton
-                android:id="@+id/return_button"
-                android:layout_width="@dimen/return_button_dimens"
-                android:layout_height="@dimen/return_button_dimens"
-                android:layout_alignParentTop="true"
-                android:layout_margin="@dimen/margin_10"
-                android:layout_marginStart="@dimen/margin_10"
-                android:layout_marginTop="@dimen/margin_10"
-                android:layout_marginEnd="@dimen/margin_10"
-                android:layout_marginBottom="@dimen/margin_10"
-                android:background="@color/transparent"
-                android:src="@drawable/ic_baseline_chevron_left_24"></ImageButton>
 
             <ImageView
                 android:id="@+id/divider_1"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/div_size"
                 android:layout_below="@+id/category_title"
-                android:layout_marginBottom="@dimen/margin"
+                android:layout_marginBottom="@dimen/margin_10"
                 android:src="@drawable/divider_white"></ImageView>
 
             <ImageView
@@ -61,18 +58,20 @@
                 android:src="@drawable/starter_3_new"></ImageView>
 
             <LinearLayout
+                android:id="@+id/layout_body"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/dessert_main_img"
                 android:orientation="vertical">
+
 
                 <TextView
                     android:id="@+id/first_dessert"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/dessert_main_img"
-                    android:layout_marginTop="@dimen/margin_20"
                     android:fontFamily="cursive"
+                    android:gravity="center"
                     android:text="@string/first_starter"
                     android:textAlignment="center"
                     android:textColor="@color/white"
@@ -83,12 +82,29 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/first_dessert"
-                    android:layout_marginBottom="@dimen/margin"
                     android:fontFamily="cursive"
                     android:text="@string/first_starter_description"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="@dimen/description_size"></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100px"
+                        android:layout_height="100px"
+                        android:src="@drawable/gluten_png"></ImageView>
+
+                    <ImageView
+                        android:layout_width="70px"
+                        android:layout_height="70px"
+                        android:src="@drawable/mj_lk_png"></ImageView>
+
+                </LinearLayout>
 
 
                 <TextView
@@ -108,12 +124,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/second_dessert"
-                    android:layout_marginBottom="@dimen/margin"
                     android:fontFamily="cursive"
                     android:text="@string/second_starter_description"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="@dimen/description_size"></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="70px"
+                        android:layout_height="70px"
+                        android:src="@drawable/mj_lk_png"></ImageView>
+
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/third_dessert"
@@ -133,14 +161,39 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/third_dessert"
-                    android:layout_marginBottom="@dimen/margin"
                     android:fontFamily="cursive"
                     android:text="@string/third_starter_description"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="@dimen/description_size"></TextView>
 
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="70px"
+                        android:layout_height="70px"
+                        android:src="@drawable/mj_lk_png"></ImageView>
+
+                </LinearLayout>
+
             </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/next_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_body"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_10"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_baseline_chevron_right_24"></ImageView>
+
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

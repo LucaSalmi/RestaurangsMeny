@@ -5,26 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_menu_better"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/gradient_drawable"
         android:gravity="center_vertical"
-        android:orientation="vertical"
-        android:background="@drawable/gradient_drawable">
+        android:orientation="vertical">
 
 
         <TextView
             android:id="@+id/titel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/margin_10"
             android:fontFamily="cursive"
             android:text="@string/titel"
             android:textAlignment="center"
-            android:layout_gravity="center_horizontal"
             android:textColor="@color/white"
             android:textSize="@dimen/title_size" />
 
@@ -32,7 +31,7 @@
             android:id="@+id/divider_1"
             android:layout_width="match_parent"
             android:layout_height="@dimen/div_size"
-            android:layout_marginBottom="@dimen/margin_100"
+            android:layout_marginBottom="@dimen/margin_10"
             android:src="@drawable/divider_white"></ImageView>
 
 
@@ -49,9 +48,8 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="@dimen/div_size"
-            android:layout_marginTop="@dimen/margin_10"
-            android:src="@drawable/divider_white"></ImageView>
+            android:layout_height="@dimen/img_height_scaling"
+            android:src="@drawable/starter_2_new"></ImageView>
 
 
         <TextView
@@ -59,7 +57,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/starters_title"
-            android:layout_marginTop="@dimen/margin_50"
             android:fontFamily="cursive"
             android:text="@string/main_course"
             android:textAlignment="center"
@@ -69,16 +66,14 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="@dimen/div_size"
-            android:layout_marginTop="@dimen/margin_10"
-            android:src="@drawable/divider_white"></ImageView>
+            android:layout_height="@dimen/img_height_scaling"
+            android:src="@drawable/main_course_1"></ImageView>
 
 
         <TextView
             android:id="@+id/dessert_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_50"
             android:fontFamily="cursive"
             android:text="@string/dessert"
             android:textAlignment="center"
@@ -88,8 +83,62 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="@dimen/div_size"
+            android:layout_height="@dimen/img_height_scaling"
+            android:src="@drawable/dessert"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_10"
-            android:src="@drawable/divider_white"></ImageView>
+            android:layout_marginBottom="@dimen/margin_10"
+            android:fontFamily="cursive"
+            android:text="@string/contacts_title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/contact_size_big"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/phone_symbol"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_phone_24"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="@string/contacts_phone"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/contact_size_small"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/mail_symbol"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_email_24"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="@string/contacts_mail"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/contact_size_small"></TextView>
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_menu_better"
+    tools:context=".Help_Page">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_drawable">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_50"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="@string/allergenic_title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_size"></TextView>
+
+            <TextView
+                android:id="@+id/text_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="@string/allegenics_description"
+                android:textColor="@color/white"
+                android:textSize="@dimen/description_size"></TextView>
+
+            <LinearLayout
+                android:id="@+id/image_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_body"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:src="@drawable/gluten_png"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:text="@string/gluten_desc"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/description_size"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/image_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_1"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:src="@drawable/mj_lk_png"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:text="@string/milk_desc"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/description_size"></TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/image_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_2"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:src="@drawable/n_tter_png"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:text="@string/nuts_desc"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/description_size"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/image_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_3"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:src="@drawable/skaldjur_png"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:text="@string/shellfish_desc"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/description_size"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/image_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_4"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:src="@drawable/egg_png"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:text="@string/eggs_desc"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/description_size"></TextView>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
