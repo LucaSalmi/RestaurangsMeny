@@ -12,6 +12,8 @@ public class Desserts extends AppCompatActivity {
 
 
     ImageView next;
+    ImageButton help;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,7 @@ public class Desserts extends AppCompatActivity {
     public void setIDs(){
 
         next = findViewById(R.id.next_page);
+        help = findViewById(R.id.help_allergy);
     }
 
     public void setListeners(){
@@ -38,6 +41,14 @@ public class Desserts extends AppCompatActivity {
                 Intent goToMain = new Intent(Desserts.this, MainActivity.class);
                 startActivity(goToMain);
 
+            }
+        });
+
+        help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent goToHelp = new Intent(Desserts.this, Help_Page.class);
+                startActivity(goToHelp);
             }
         });
 

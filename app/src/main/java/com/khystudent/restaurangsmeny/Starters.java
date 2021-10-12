@@ -16,6 +16,7 @@ import java.util.ArrayList;
 public class Starters extends AppCompatActivity {
 
     ImageView next;
+    ImageButton help;
 
 
     @Override
@@ -30,6 +31,7 @@ public class Starters extends AppCompatActivity {
 
     public void setIDs(){
         next = findViewById(R.id.next_page);
+        help = findViewById(R.id.help_allergy);
     }
 
     public void setListeners(){
@@ -41,6 +43,14 @@ public class Starters extends AppCompatActivity {
                 Intent goToMain = new Intent(Starters.this, MainCourses.class);
                 startActivity(goToMain);
 
+            }
+        });
+
+        help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent goToHelp = new Intent(Starters.this, Help_Page.class);
+                startActivity(goToHelp);
             }
         });
 

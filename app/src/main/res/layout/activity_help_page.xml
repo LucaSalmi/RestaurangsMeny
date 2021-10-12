@@ -25,6 +25,7 @@
                 android:gravity="center"
                 android:text="@string/allergenic_title"
                 android:textColor="@color/white"
+                android:layout_marginTop="@dimen/margin_10"
                 android:textSize="@dimen/title_size"></TextView>
 
             <TextView
