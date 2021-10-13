@@ -101,8 +101,8 @@
                         android:src="@drawable/gluten_png"></ImageView>
 
                     <ImageView
-                        android:layout_width="70px"
-                        android:layout_height="70px"
+                        android:layout_width="60px"
+                        android:layout_height="60px"
                         android:src="@drawable/mj_lk_png"></ImageView>
 
                 </LinearLayout>
@@ -138,14 +138,14 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="70px"
-                        android:layout_height="70px"
+                        android:layout_width="60px"
+                        android:layout_height="60px"
                         android:src="@drawable/mj_lk_png"></ImageView>
 
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/third_dessert"
+                    android:id="@+id/third_main"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/second_description"
@@ -161,7 +161,7 @@
                     android:id="@+id/third_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/third_dessert"
+                    android:layout_below="@id/third_main"
                     android:fontFamily="cursive"
                     android:text="@string/third_starter_description"
                     android:textAlignment="center"
@@ -176,8 +176,8 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="70px"
-                        android:layout_height="70px"
+                        android:layout_width="60px"
+                        android:layout_height="60px"
                         android:src="@drawable/mj_lk_png"></ImageView>
 
                 </LinearLayout>
